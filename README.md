@@ -28,7 +28,7 @@ Database.database().reference(withPath: "/cools").observe(.value, with: observer
 
 No need to round-trip through JSON or manually extract values from the `DataSnapshot`. All the goodness of `Decodable` direct from your Firebase Realtime Database. Nested objects, arrays, optionals, it's all there.
 
-`DataSnapshotDecoder` is an example of a nontrivial, yet straightforward, custom implementation of `Foundation.Decoder`. If you're navgigating that protocol, maybe this example is helpful!
+`DataSnapshotDecoder` is an example of a nontrivial, yet straightforward, custom implementation of `Foundation.Decoder`. If you're navigating that protocol, maybe this example is helpful!
 
 ## Install
 
